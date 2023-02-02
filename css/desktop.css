@@ -1,0 +1,47 @@
+@media screen and (min-width:1200px) {
+    .conteiner {
+        width: 1200px;
+    }
+/* ---------------------------------FEATURES-------------------------------- */
+    .features {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .features__list .features__item {
+        width: 270px;
+    }
+    .features .features__tittle{
+        text-align: left;
+    }
+/* --------------------------TEAM----------------------------------- */
+    .team {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .team__tittle {
+        font-size: 36px;
+        line-height: 1.17;
+    }
+
+    .team__card {
+        width: 270px;
+    }
+
+    /* -----------------------CLIENT------------------------- */
+    .client {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .client__tittle {
+        font-size: 36px;
+        line-height: 1.17;
+    }
+
+    .client__box {
+        width: 170px;
+    }
+
+
+}

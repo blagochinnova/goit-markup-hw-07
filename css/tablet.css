@@ -1,0 +1,37 @@
+@media screen and (min-width:768px) {
+    .conteiner {
+        width: 768px;
+    }
+
+
+    /* -----------------FEATURES--------------------- */
+    .features__list .features__item{
+        width: 354px;
+    }
+
+
+    /* ----------------------TEAM-------------------- */
+    .team__tittle {
+        font-size: 28px;
+        line-height: 1.18;
+    }
+
+    .team__card {
+        width: 354px;
+    }
+/* ----------------------------CLIENT--------------------------- */
+    .client {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .client__tittle {
+        font-size: 36px;
+        line-height: 1.17;
+    }
+
+    .client__box {
+        width: 170px;
+    }
+
+}

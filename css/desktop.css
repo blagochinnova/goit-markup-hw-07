@@ -2,6 +2,26 @@
     .conteiner {
         width: 1200px;
     }
+    /* ---------------------------HERO------------------------------------- */
+    .hero__tittle{
+        font-size: 44px;
+        line-height: 1.36;
+        width: 696px;
+    }
+    .hero{
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../images/hero_photo/hero.png);
+    }
+                        @media (min-device-pixel-ratio: 2),
+                        (-webkit-min-device-pixel-ratio: 2),
+                        (min-resolution: 192dpi),
+                        (min-resolution: 2dppx) {
+                            .hero {
+                                background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_photo/hero_desktop.jpg);
+                            }
+                        }
 /* ---------------------------------FEATURES-------------------------------- */
     .features {
         padding-top: 94px;
@@ -13,6 +33,11 @@
     .features .features__tittle{
         text-align: left;
     }
+
+    /* ----------------------TASK----------------------------------- */
+.task__blok{
+    display: block;
+}
 /* --------------------------TEAM----------------------------------- */
     .team {
         padding-top: 94px;

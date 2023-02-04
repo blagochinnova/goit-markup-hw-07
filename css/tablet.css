@@ -2,13 +2,27 @@
     .conteiner {
         width: 768px;
     }
-
-
+/* ----------------------------HERO--------------------- */
+.hero{
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/hero_photo/Header_tablet_img.jpg);
+}
+                @media (min-device-pixel-ratio: 2),
+                (-webkit-min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                    .hero {
+                        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_photo/hero_tablet.jpg);
+                    }
+                }
     /* -----------------FEATURES--------------------- */
     .features__list .features__item{
         width: 354px;
     }
-
+/* --------------------------TASK---------------------- */
+.task__blok {
+    display: none;
+}
 
     /* ----------------------TEAM-------------------- */
     .team__tittle {

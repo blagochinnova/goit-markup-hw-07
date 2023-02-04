@@ -2,5 +2,9 @@
     .conteiner {
         width: 480px;
     }
+    /* -------------------TASK------------------------------ */
+        .task__blok {
+            display: none;
+        }
 
 }

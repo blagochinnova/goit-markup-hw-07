@@ -259,27 +259,38 @@ display: inline-block;
     margin-bottom: 30px;
     color: var(--white-color);
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.3;
+    font-size: 26px;
+    line-height: 1.6;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 696px; 
+    width: 360px; 
     }
 .hero {
     background-color: var(--background-hero);
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     /* max-width: 1600px; */
-    height: 600px;
+    /* height: 600px; */
     margin-left: auto;
     margin-right: auto;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url(../images/hero.png);
+    url(../images/hero_photo/Header_mobile_img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     }
+
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_photo/hero_mobile.jpg);
+            }
+        }
+
 .hero__button{
     padding: 10px 32px;
     min-width: 216px;
@@ -333,49 +344,51 @@ display: inline-block;
 }
 
 /* ______________________________Tasks___________________________ */
-.task{
-    padding-top: 0;
-}
-
-.task__tittle {
-    color: var(--tittle-text-color);
-    font-size: 36px;
-    line-height: 1.17;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-bottom: 50px;
-    }
-    
-.task__list__tittle{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--white-color);
-    background-color: var(--action-color);
-    letter-spacing: 0.03em;
-    font-size: 14px;
-    line-height: 1.7;
-    font-style: normal;
-    }
-.task__list{
-    display: flex;
-    padding: 0;
-    margin: 0;
-    font-size: 36px;
-    line-height: 1.17;
-    justify-content: space-between;
-}
-
-.task__list .task__img:not(:last-child){
-    margin-right: 30px;
-}
-.task .action{
-    position: relative;
-}
+                .task__blok {
+                    padding-top: 94px;
+                    padding-bottom: 94px;
+                }
+        
+                .task__tittle {
+                    color: var(--tittle-text-color);
+                    font-size: 36px;
+                    line-height: 1.17;
+                    margin-top: 0;
+                    margin-bottom: 50px;
+                }
+        
+                .task__list__tittle {
+                    position: absolute;
+                    width: 100%;
+                    bottom: 0;
+                    padding-top: 27px;
+                    padding-bottom: 27px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: var(--white-color);
+                    background-color: var(--action-color);
+                    letter-spacing: 0.03em;
+                    font-size: 14px;
+                    line-height: 1.7;
+                    font-style: normal;
+                }
+        
+                .task__list {
+                    display: flex;
+                    padding: 0;
+                    margin: 0;
+                    font-size: 36px;
+                    line-height: 1.17;
+                    justify-content: space-between;
+                }
+        
+                .task__list .task__img:not(:last-child) {
+                    margin-right: 30px;
+                }
+        
+                .task__blok .action {
+                    position: relative;
+                }
 
 /* __________________________Team________________________________ */
 

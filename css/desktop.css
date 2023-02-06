@@ -67,6 +67,31 @@
     .client__box {
         width: 170px;
     }
-
-
+/* --------------------FOOTER--------------------- */
+.footer__conteiner{
+    justify-content: start;
+    align-items: baseline;
+    text-align: left;
 }
+.footer__logo{
+        margin-bottom: 0px;
+        margin-right: 69px;
+}
+.footer__soc-link{
+    margin-bottom: 0;
+    margin-right: 94px;
+}
+.footer__subscribe-form{
+    margin-left: auto;
+}
+.footer__subscribe{
+    width: auto;
+    justify-content: start;
+}
+.footer__subscribe-input{
+        margin-bottom: 0;
+        margin-right: 12px;
+        width: 358px;
+}
+
+}    

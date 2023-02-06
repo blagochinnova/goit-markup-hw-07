@@ -47,5 +47,18 @@
     .client__box {
         width: 170px;
     }
+    /* -------------FOOTER--------------------- */
+    .footer__conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer__logo{
+        margin-right: 165px;
+    }
+    .footer__subscribe-input{
+        width: 450px;
+    }
 
 }

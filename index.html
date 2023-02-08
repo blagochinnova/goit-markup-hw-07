@@ -83,8 +83,10 @@
             <a href="tell:+380961111111" class="contacts-mobile__phone">
             380 96 111 11 11
         </a> 
-            <a href="mailto:info@devstudio.com" class="contacts-mobile__mail "></a>
-            info@devstudio.com
+            <a href="mailto:info@devstudio.com" class="contacts-mobile__mail">
+                info@devstudio.com
+            </a>
+        
     
     
     <ul class="mobile-social">
@@ -182,25 +184,37 @@
                 <ul class="task__list lists">
         
     <li class="task__img action">
-    <img src="images/img.jpg" alt="Десктопні додатки" width="370">
+    <img
+    srcset="task1.jpg 1x, task1.jpg 2x"
+    src="images/img.jpg" alt="Десктопні додатки" width="370">
     <p class="task__list__tittle  ">Десктопні додатки</p>
                     </li>
     <li class="task__img action">
-    <img src="images/img_1.jpg" alt="Мобільні додатки" width="370">
+    <img 
+    srcset="task2.jpg 1x, task2.jpg 2x"
+    src="images/img_1.jpg" alt="Мобільні додатки" width="370">
     <p class="task__list__tittle">Мобільні додатки</p></li>
     <li class="task__img action ">
-    <img src="images/img_2.jpg" alt="Дизайнерські рішення" width="370"> 
+    <img 
+    srcset="task3.jpg 1x, task3.jpg 2x"
+    src="images/img_2.jpg" alt="Дизайнерські рішення" width="370"> 
     <p class="task__list__tittle">Дизайнерські рішення</p></li>
                 </ul>
             </div></section>
-
+<img
+  srcset="photo.jpg 1x, photo@2x.jpg 2x"
+  src="photo.jpg"
+  alt="Опис зображення для усіх версій"
+/>
     <!--Наша команда-->
     <section class=" section team">
         <div class="conteiner">
             <h2 class="tittle team__tittle">Наша команда</h2>
             <ul class="team__list lists">
                 <li class="team__card">
-                    <img class="team__img" src="images/img_3.jpg" alt="Ігор Дем'яненко" width="270">
+                    <img class="team__img" 
+                    srcset="team1.jpg 1x, team1.jpg 2x"
+                    src="images/img_3.jpg" alt="Ігор Дем'яненко" width="270">
                 <div class="team__description">
                     
                 <h3 class="team__name">Ігор Дем'яненко</h3>
@@ -243,7 +257,9 @@
                 </li>
                 
                 <li class="team__card">
-                    <img class="team__img" src="images/img_4.jpg" alt="Ольга Рєпіна" width="270"> 
+                    <img class="team__img" 
+                    srcset="team2.jpg 1x, team2.jpg 2x"
+                    src="images/img_4.jpg" alt="Ольга Рєпіна" width="270"> 
                     <div class="team__description">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p class="team__text">Frontend Developer</p>
@@ -284,7 +300,9 @@
                     </div>
                 </li>
                 <li class="team__card">
-                    <img class="team__img" src="images/img_5.jpg" alt="Микола Тарасов" width="270"> 
+                    <img class="team__img" 
+                    srcset="team3.jpg 1x, team3.jpg 2x"
+                    src="images/img_5.jpg" alt="Микола Тарасов" width="270"> 
                     <div class="team__description">
                 <h3 class="team__name">Микола Тарасов</h3>
                 <p class="team__text">Marketing</p>
@@ -325,7 +343,9 @@
                 </div>
                 </li>
                 <li class="team__card"> 
-                    <img class="team__img" src="images/img_6.jpg" alt="Михайло Єрмаков" width="270">
+                    <img class="team__img" 
+                    srcset="team4.jpg 1x, team4.jpg 2x"
+                    src="images/img_6.jpg" alt="Михайло Єрмаков" width="270">
                     <div class="team__description">
                 <h3 class="team__name">Михайло Єрмаков</h3>
                 <p class="team__text">UI Designer</p>
@@ -462,7 +482,7 @@
                 </ul>
             </div>
 
-<form class="footer__subscribe-form">
+    <form class="footer__subscribe-form">
     <p class="footer__join">Підпишіться на розсилку</p>
 <div class="footer__subscribe">
     <label for="mail" class="footer__subscribe-label"></label>
@@ -531,6 +551,6 @@
     </div>
 </div>
 <script src="./js/menu.js"></script>
-
+<script src="./js/modal.js"></script>
 </body>
 </html>

@@ -2,6 +2,35 @@
     .conteiner {
         width: 1200px;
     }
+    /* ----------------------HEADER------------------------------- */
+    .top-menu{
+        margin-right: auto;
+        margin-left: auto;
+        width: 1200px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-logo{
+        margin-top: 24px;
+        margin-bottom: 25px;
+        margin-left: 50px;
+        margin-right: 93px;
+    }
+        .contacts-lists{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        margin-right: 50px;
+        }
+    
+.contacts-lists__item:not(:last-child) {
+    margin-right: 50px;}
+
+
+
     /* ---------------------------HERO------------------------------------- */
     .hero__tittle{
         font-size: 44px;
@@ -68,30 +97,55 @@
         width: 170px;
     }
 /* --------------------FOOTER--------------------- */
+
 .footer__conteiner{
     justify-content: start;
     align-items: baseline;
     text-align: left;
 }
+
 .footer__logo{
         margin-bottom: 0px;
         margin-right: 69px;
+}
+.footer__join{
+text-align: left;
 }
 .footer__soc-link{
     margin-bottom: 0;
     margin-right: 94px;
 }
+.subscribe {
+    margin-top: 0;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
 .footer__subscribe-form{
-    margin-left: auto;
+margin-left: auto;
 }
 .footer__subscribe{
-    width: auto;
-    justify-content: start;
+width: auto;
+justify-content: start;
+flex-direction: row;
 }
 .footer__subscribe-input{
-        margin-bottom: 0;
-        margin-right: 12px;
-        width: 358px;
+    margin-bottom: 0;
+    margin-right: 12px;
+    width: 358px;
+}
+/* .footer__subscribe-button{
+margin-left: 12px;
+} */
+.form{
+        width: 528px;
+            min-height: 581px;
+}
+.form__field:not(:last-child) {
+    margin-bottom: 28px;
+}
+.form__checkbox-label{
+font-size: 14px;
+    line-height: 1.71;
 }
 
 }    

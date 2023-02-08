@@ -5,6 +5,38 @@
 
     /* -----------------------HEADER---------------------- */
 
+    .top-menu{
+        margin-right: auto;
+        margin-left: auto;
+        width: 768px;
+        height: 80px;
+    }
+    .nav{
+        padding-right: 0;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-logo{
+        margin-top: 26px;
+        margin-bottom: 26px;
+        margin-left: 15px;
+        margin-right: 88px;
+    }
+    .site-nav{
+        margin-right: 50px;
+    }
+    .contacts-lists{
+        margin-bottom: 21px;
+        margin-top: 21px;
+    }
+    .top-menu-btn{
+        display: none;
+    }
+    .contacts-lists__link{
+        margin-bottom: 10px;
+    }
 /* ----------------------------HERO--------------------- */
 .hero{
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -60,6 +92,9 @@
     .footer__logo{
         margin-right: 165px;
     }
+        .footer__subscribe {
+            width: 450px;
+        }
     .footer__subscribe-input{
         width: 450px;
     }

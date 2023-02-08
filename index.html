@@ -20,6 +20,7 @@
     <header class="header">
             <div class="top-menu">
         <nav class="conteiner nav">
+        <!-- site header logo -->
         <div class="header-logo">
 <a href="index.html" class="nav__logo-header"> 
             <span class="logo-accent">Web</span>Studio
@@ -54,25 +55,27 @@
         
 <!-- header menu -->
         <div class="mob-box">
-<button class="top-menu-btn" type="button">
-                <svg  width="40px" height="40px"><use href="./images/icon_burger/icon_burger.svg#icon-close"></use></svg>
+<button class="top-menu-btn js-open-menu " aria-expanded="false" aria-controls="mobile-menu">
+                <svg  width="40px" height="40px" aria-label="перемикач мобільного меню">
+                    <use href="./images/icon_burger/icon_burger.svg#icon-menu"></use></svg>
 
         </button>
 
-<div class="mob-menu  mob-menu__mobile " >
-            <button class="top-menu-btn btn__close" type="button" >
-                <svg  width="40px" height="40px"><use href="./images/icon_burger/icon_burger.svg#icon-close"></use></svg>
+<div class="mob-menu  js-menu-container  " id="mobile-menu">
+            <button class="top-menu-btn js-close-menu" aria-expanded="false" aria-controls="mobile-menu" type="button" >
+                <svg  width="40px" height="40px" aria-label="перемикач мобільного меню">
+                    <use href="./images/icon_burger/icon_burger.svg#icon-close"></use></svg>
 
         </button>
             <!-- container menu -->
-<ul class="nav__list lists">
-            <li class="nav__list-item">
+<ul class="nav__mob lists">
+            <li class="nav__mob-item">
             <a class="link nav__link nav__link--active" href="./index.html">Студия</a>
             </li>
-            <li class="nav__list-item">
+            <li class="nav__mob-item">
             <a class="link nav__link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="nav__list-item">
+            <li class="nav__mob-item">
             <a class="link nav__link" href="#contacts">Контакты</a>
             </li>
         </ul>

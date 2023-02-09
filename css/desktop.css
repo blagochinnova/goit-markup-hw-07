@@ -28,6 +28,10 @@
     
 .contacts-lists__item:not(:last-child) {
     margin-right: 50px;}
+    .mob-menu{
+        opacity: 0;
+        visibility: hidden;
+    }
 
 
 
@@ -64,8 +68,10 @@
     }
 
     /* ----------------------TASK----------------------------------- */
+
 .task__blok{
     display: block;
+    padding-top: 0;
 }
 /* --------------------------TEAM----------------------------------- */
     .team {
@@ -92,7 +98,10 @@
         font-size: 36px;
         line-height: 1.17;
     }
-
+.client__svg{
+    flex-wrap: nowrap;
+    margin: 0;
+}
     .client__box {
         width: 170px;
     }
@@ -136,16 +145,16 @@ flex-direction: row;
 /* .footer__subscribe-button{
 margin-left: 12px;
 } */
-.form{
-        width: 528px;
-            min-height: 581px;
-}
-.form__field:not(:last-child) {
-    margin-bottom: 28px;
-}
+
+
 .form__checkbox-label{
 font-size: 14px;
     line-height: 1.71;
 }
+/* ----------------MODAL---------------- */
 
+.modal {
+    min-width: 528px;
+    min-height: 581px;
+}
 }    

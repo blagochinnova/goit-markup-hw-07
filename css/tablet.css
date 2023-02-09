@@ -4,7 +4,9 @@
     }
 
     /* -----------------------HEADER---------------------- */
-
+    .header{
+        position: initial;
+    }
     .top-menu{
         margin-right: auto;
         margin-left: auto;
@@ -70,17 +72,22 @@
     }
 /* ----------------------------CLIENT--------------------------- */
     .client {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
-    .client__tittle {
-        font-size: 36px;
-        line-height: 1.17;
+    .client__svg{
+        flex-wrap: wrap;
+            margin: -15px;
+    }
+    .client__item:not(:last-child){
+            margin-right: 15px;
     }
 
     .client__box {
-        width: 170px;
+        display: flex;
+            justify-content: center;
+            align-items: center;
     }
     /* -------------FOOTER--------------------- */
     .footer__conteiner{
@@ -99,5 +106,18 @@
         width: 450px;
     }
 
+
+    
+
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+.top-menu {
+
+        align-items: center;
+    }
+        .modal {
+            width: 450px;
+            min-height: 609px;
+        }
+}
